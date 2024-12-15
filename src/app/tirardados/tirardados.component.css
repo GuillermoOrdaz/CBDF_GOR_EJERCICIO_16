@@ -1,0 +1,45 @@
+/* Estilo general del contenedor */
+.container {
+    background: linear-gradient(to bottom, #f8a382, #f47959); /* Degradado naranja */
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 auto; /* Centrar horizontalmente */
+    text-align: center;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+/* Estilo para el texto */
+p {
+    font-size: 2rem; /* Tamaño del texto */
+    color: #000000; /* Texto negro */
+    margin: 10px 0;
+}
+
+/* Estilo específico para "Gano" */
+p.resultado {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #000000; /* Texto en negro */
+}
+
+/* Estilo para el botón "Tirar Dados" */
+.btn-success {
+    background-color: #00475b; /* Color azul oscuro */
+    color: #ffffff; /* Color blanco */
+    font-size: 1.5rem; /* Tamaño del texto */
+    border-radius: 15px; /* Bordes redondeados */
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.btn-success:hover {
+    background-color: #003745; /* Más oscuro al pasar el mouse */
+}
+
+/* Estilo para los dados en línea */
+app-dado {
+    display: inline-block;
+    margin: 10px; /* Espaciado entre los dados */
+}

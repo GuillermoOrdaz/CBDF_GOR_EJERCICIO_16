@@ -1,0 +1,17 @@
+/* Estilo para los botones de los dados */
+.btn-primary {
+    background-color: #00475b; /* Color de fondo azul oscuro */
+    color: #ffffff; /* Color de texto blanco */
+    border: none;
+    font-size: 2rem; /* Tamaño de fuente más grande */
+    border-radius: 15px; /* Bordes redondeados */
+    width: 70px; /* Ancho fijo */
+    height: 70px; /* Altura fija */
+    text-align: center;
+    line-height: 70px; /* Alinea verticalmente el texto */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+.btn-primary:hover {
+    background-color: #003745; /* Color más oscuro al pasar el mouse */
+}
